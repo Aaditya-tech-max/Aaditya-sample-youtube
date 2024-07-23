@@ -1,0 +1,34 @@
+.sidebar-area {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 55px;
+  background-color: white;
+  width:72px;
+  z-index:200;
+  padding-top: 5px;
+}
+
+
+.homebutton {
+  height: 74px;
+  cursor:pointer;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.homebutton:hover{
+  background-color:  rgb(235, 235, 235);
+}
+
+.homebutton img{
+  height:24px;
+  margin-bottom: 4px;
+}
+
+.homebutton div{
+font-family: Roboto, Arial;
+font-size:10px;
+}
